@@ -1,6 +1,8 @@
 # data_manipulation_analysis_and_hypothesis_testing
 Statistic analysis of videogame global sales, including hypothesis testing, where I observe patterns on successful sales to identify the potential on new games in the market.
+
 Data is stored in a CSV file.
+
 Libraries used in this repository: Pandas, NumPy, Matplotlib, Seaborn, Plotly and SciPy.
 
 **Data overview**
