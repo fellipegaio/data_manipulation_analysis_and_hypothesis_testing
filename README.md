@@ -1,4 +1,4 @@
-# data_manipulation_analysis_and_hypothesis_testing
+# Video Game Sales Analysis
 
 Identified global sales patterns and conducted hypothesis testing to explore market opportunities.
 
