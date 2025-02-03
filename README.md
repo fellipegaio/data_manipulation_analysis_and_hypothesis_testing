@@ -43,6 +43,7 @@ Libraries used in this repository: Pandas, NumPy, Matplotlib, Seaborn, Plotly an
 * Impact of ESRB ratings on sales per region
 
 **Hypothesis Testing**
+
 Checking if:
 * Average user ratings for Xbox One and PC platforms are the same.
 * Average user ratings for the Action and Sports genres are different.
