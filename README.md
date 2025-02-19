@@ -1,50 +1,88 @@
-# Video Game Sales Analysis
+# 🎮 Video Game Sales Analysis 📈  
 
-Identified global sales patterns and conducted hypothesis testing to explore market opportunities.
+This project dives into global video game sales, uncovering trends, analysing platforms, and testing hypotheses to understand what makes a game a hit! 🚀  
 
-**Libraries used in this repository:** Pandas, NumPy, Matplotlib, Seaborn, Plotly and SciPy.
+## 🔧 Technologies Used  
+- 🐼 **Pandas** – Data manipulation & analysis  
+- 🔢 **NumPy** – Numerical operations  
+- 📊 **Matplotlib & Seaborn** – Data visualization  
+- 📈 **Plotly** – Interactive charts  
+- 📏 **SciPy** – Hypothesis testing  
 
-Data is stored in a CSV file.
-Identified global sales patterns and conducted hypothesis testing to explore market opportunities.
+## 🗂 Dataset Overview  
+I worked with a dataset containing sales data from different regions and game-related metrics:  
 
-Libraries used in this repository: Pandas, NumPy, Matplotlib, Seaborn, Plotly and SciPy.
+### 🎮 Game Features  
+- Name  
+- Platform  
+- Release Year  
+- Genre  
+- ESRB Rating  
 
-**Data overview**
-* Name
-* Platform
-* Year_of_Release
-* Genre
-* NA_sales: North American sales in millions of U$D
-* EU_sales: European sales in millions of U$D
-* JP_sales: Japan sales in millions of U$D
-* Other_sales: sales in other countries in millions of U$D
-* Critic_Score: maximum 100
-* User_Score: maximum 10
-* Rating (ESRB)
-*The dataset contains the abbreviation ESRB. The Entertainment Software Rating Board evaluates a game's content and assigns an age rating, such as Teen or Mature.*
+### 💰 Sales Metrics (in millions of USD)  
+- North America (**NA_sales**)  
+- Europe (**EU_sales**)  
+- Japan (**JP_sales**)  
+- Other Regions (**Other_sales**)  
 
-**Data Pre-processing**
-* Replaced column names (turning everything lowercase).
-* Converted the data to more adequate types.
-* Handled missing values
-* Performed feature engineering
-**Data Analysis**
-* Games released in different years
-* Sales from platform to platform and for each year
-* Platforms popularity through time and their life span 
-* Box plot for global sales of all games, broken down by platform
-* Impact of user and professional reviews on sales
-* Correlation between reviews and sales
-* Compared sales of the same games in different platforms
-* Genre profitability
+### ⭐ Reviews & Ratings  
+- Critic Score (0-100)  
+- User Score (0-10)  
 
-**Breakdown of global sales**
-* User profile for each region (North America, European Union & Japan), showing the main platforms and genres
-* Impact of ESRB ratings on sales per region
+The dataset includes **ESRB ratings**, which help determine if a game is suitable for different age groups (e.g., Teen, Mature, Everyone).  
 
-**Hypothesis Testing**
+## 🔍 Data Cleaning & Preprocessing  
+🛠 **Steps taken to improve data quality:**  
+✅ Standardized column names (lowercase & trimmed spaces)  
+✅ Converted data to proper formats  
+✅ Handled missing values with smart imputation & cleaning  
+✅ Created new features for deeper insights  
 
-Checking if:
-* Average user ratings for Xbox One and PC platforms are the same.
-* Average user ratings for the Action and Sports genres are different.
-**Libraries used in this repository:** Pandas, NumPy, Matplotlib, Seaborn, Plotly and SciPy.
+## 📊 Exploratory Data Analysis  
+I analysed trends across time, platforms, and game genres, uncovering some fascinating insights!  
+
+### 📅 Game Releases Over the Years  
+- How the number of new games fluctuated over time  
+
+### 🎮 Platform Popularity  
+- Which gaming consoles dominated the industry?  
+- How long do platforms stay relevant?  
+
+### 📦 Sales Distribution & Market Share  
+- Sales trends across different platforms  
+- What makes some consoles more successful than others?  
+
+### 💬 Impact of Reviews on Sales  
+- Do **high critic scores** translate to **higher sales**?  
+- Do **user reviews** matter as much as critics’ opinions?  
+
+### 💸 Most Profitable Game Genres  
+- Which genres generate the most revenue?  
+- Regional differences in genre preferences  
+
+## 🌍 Regional Market Insights  
+I analysed player preferences across three key gaming regions:  
+
+- 🇺🇸 **North America:** Xbox and Sports games dominate!  
+- 🇪🇺 **Europe:** PlayStation reigns supreme!  
+- 🇯🇵 **Japan:** RPGs are king! 🏯  
+
+## 🧪 Hypothesis Testing  
+I tested two interesting gaming-related hypotheses:  
+
+1. 🕹 **Do Xbox One and PC games have the same average user ratings?**  
+2. 🎭 **Are Action and Sports games rated differently by players?**  
+
+## 🚀 Key Takeaways  
+📌 The **golden era** of gaming was between **2000-2010**!  
+📌 **PS2, DS, and Wii** were some of the best-selling consoles of all time.  
+📌 **Critic scores impact sales more than user ratings!**  
+📌 Different regions have **unique gaming preferences**
+
+---
+
+## 🤝 Contributions & Feedback  
+
+If you have suggestions or improvements, feel free to reach out!  
+
+📩 Contact: ofellipegaio@gmail.com | LinkedIn: https://www.linkedin.com/in/fellipegaio  
